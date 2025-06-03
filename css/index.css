@@ -40,10 +40,17 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
     display: flex; /* Ativa o Flexbox */
     flex-direction: column; /* Organiza os itens em coluna (h1 em cima, links embaixo) */
     justify-content: center; /* Centraliza os itens verticalmente */
     align-items: center; /* Centraliza os itens horizontalmente */
+=======
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> 03f68e3ffab1bb2ed510083a2f4c5ed67fdfd35a
 }
 
 .login {
@@ -52,6 +59,7 @@ body {
     align-items: center;
 }
 
+<<<<<<< HEAD
 h2 {
     margin: 0;   /* Remove a margem externa */
     padding: 0;  /* Remove o preenchimento interno */
@@ -114,3 +122,6 @@ h2 {
     align-items: center; /* Centraliza o item filho (o .container) verticalmente */
     /* Opcional: background-color: #333333;*/
 }   
+=======
+
+>>>>>>> 03f68e3ffab1bb2ed510083a2f4c5ed67fdfd35a

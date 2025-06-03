@@ -1,0 +1,116 @@
+body {
+    /* Define a imagem de fundo */
+    background-image: url('../html/image\ 9.png');
+    background-size: cover;
+    /* Faz a imagem cobrir toda a tela */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+    height: 100vh;
+    margin: 0;
+
+    /* Para garantir que o texto fique visível */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    /* alinha à direita */
+    align-items: center;
+    list-style: none;
+    /* remove os marcadores (bolinhas) */
+    gap: 100px;
+    /* espaçamento entre os itens */
+}
+
+.topo ul {
+    padding: 0;
+    margin: 0;
+}
+
+.mygym {
+    text-align: center;
+    align-items: center ;
+}
+
+.container {
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os itens em coluna (h1 em cima, links embaixo) */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;   /* Remove a margem externa */
+    padding: 0;  /* Remove o preenchimento interno */
+    /* Posicionamento adicional para o canto superior esquerdo */
+    position: fixed; /* Ou 'fixed' se quiser que ele role com a tela */
+    top: 0;
+    left: 0;
+    color: white; /* Exemplo: se sua imagem de fundo for escura, texto branco fica melhor */
+    z-index: 10; /* Garante que o h2 fique acima de outros elementos se necessário */
+}
+
+.topo {
+    position: absolute; /* Permite posicionar o elemento de forma precisa */
+    top: 0;            /* Alinha ao topo da tela */
+    right: 0;          /* Alinha à direita da tela */
+    margin: 20px;      /* Adiciona um pouco de margem para não ficar colado na borda */
+}
+
+.topo ul {
+    list-style: none;  /* Remove os marcadores de lista padrão */
+    padding: 0;        /* Remove o preenchimento padrão da lista */
+    margin: 0;         /* Remove a margem padrão da lista */
+    display: flex;     /* Faz com que os itens da lista fiquem um ao lado do outro */
+    gap: 20px;         /* Adiciona espaço entre os itens da lista */
+}
+
+.topo li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333;           /* Define a cor do texto dos links */
+    font-family: Arial, sans-serif; /* Define a fonte */
+    padding: 5px 10px;     /* Adiciona um pouco de preenchimento aos links para facilitar o clique */
+    transition: color 0.3s ease; /* Adiciona uma transição suave na cor ao passar o mouse */
+}
+
+.topo li a:hover {
+    color: #007bff; /* Muda a cor do texto ao passar o mouse */
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 0;
+    gap: 20px;
+}
+
+.cabecalho {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Transforma o body em um contêiner flexível */
+    justify-content: center; /* Centraliza o item filho (o .container) horizontalmente */
+    align-items: center; /* Centraliza o item filho (o .container) verticalmente */
+    /* Opcional: background-color: #333333;*/
+}   
